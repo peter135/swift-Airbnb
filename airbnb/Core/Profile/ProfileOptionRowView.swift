@@ -1,0 +1,32 @@
+//
+//  ProfileOptionRowView.swift
+//  airbnb
+//
+//  Created by 炜季 on 2024/8/12.
+//
+
+import SwiftUI
+
+struct ProfileOptionRowView: View {
+    let imageName:String
+    let title:String
+    
+    var body: some View {
+        VStack {
+            HStack {
+                Image(systemName: imageName)
+                
+                Text(title)
+                    .font(.subheadline)
+                
+                Spacer()
+                
+                Image(systemName: "chevron.right")
+            }
+        }
+    }
+}
+
+#Preview {
+    ProfileOptionRowView(imageName: "gear", title: "settings")
+}

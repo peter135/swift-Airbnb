@@ -1,0 +1,122 @@
+//
+//  DevelopPreview.swift
+//  airbnb
+//
+//  Created by 炜季 on 2024/8/13.
+//
+
+import Foundation
+
+class DevelopPreview {
+    static let shared = DevelopPreview()
+    
+    var listings:[Listing] = [
+        .init(id: NSUUID().uuidString,
+              ownerUid: NSUUID().uuidString,
+              ownerName: "john smith",
+              ownerImageUrl: "male-profile-photo",
+              numberOfBedrooms: 4,
+              numberOfBathrooms: 3,
+              numberOfGuests: 4,
+              numberOfBeds: 4,
+              pricePerNight: 567,
+              latitude: 25.7850,
+              longtitude: -80.1936,
+              imageURLs: ["listing-2","listing-2","listing-3","listing-4"],
+              address: "123 main st",
+              city: "miami",
+              state: "florida",
+              title: "miami villa",
+              rating: 4.86,
+              features: [.selfChekIn, .superHost],
+              amenities: [.wifi, .alarmSystem,.balcony,.laundry],
+              type: .villa
+             ),
+        .init(id: NSUUID().uuidString,
+              ownerUid: NSUUID().uuidString,
+              ownerName: "john smith",
+              ownerImageUrl: "male-profile-photo",
+              numberOfBedrooms: 4,
+              numberOfBathrooms: 3,
+              numberOfGuests: 4,
+              numberOfBeds: 4,
+              pricePerNight: 567,
+              latitude: 25.7850,
+              longtitude: -80.1936,
+              imageURLs: ["listing-2","listing-2","listing-3","listing-4"],
+              address: "124 main st",
+              city: "Los Angeles",
+              state: "florida",
+              title: "miami villa",
+              rating: 4.86,
+              features: [.selfChekIn, .superHost],
+              amenities: [.wifi, .alarmSystem,.balcony,.laundry],
+              type: .villa
+             ),
+        .init(id: NSUUID().uuidString,
+              ownerUid: NSUUID().uuidString,
+              ownerName: "john smith",
+              ownerImageUrl: "male-profile-photo",
+              numberOfBedrooms: 4,
+              numberOfBathrooms: 3,
+              numberOfGuests: 4,
+              numberOfBeds: 4,
+              pricePerNight: 567,
+              latitude: 25.7850,
+              longtitude: -80.1936,
+              imageURLs: ["listing-2","listing-2","listing-3","listing-4"],
+              address: "1245 main st",
+              city: "miami",
+              state: "florida",
+              title: "miami villa",
+              rating: 4.86,
+              features: [.selfChekIn, .superHost],
+              amenities: [.wifi, .alarmSystem,.balcony,.laundry],
+              type: .villa
+             ),
+        .init(id: NSUUID().uuidString,
+              ownerUid: NSUUID().uuidString,
+              ownerName: "john smith",
+              ownerImageUrl: "male-profile-photo",
+              numberOfBedrooms: 4,
+              numberOfBathrooms: 3,
+              numberOfGuests: 4,
+              numberOfBeds: 4,
+              pricePerNight: 567,
+              latitude: 25.7850,
+              longtitude: -80.1936,
+              imageURLs: ["listing-2","listing-2","listing-3","listing-4"],
+              address: "126 main st",
+              city: "miami",
+              state: "florida",
+              title: "miami villa",
+              rating: 4.86,
+              features: [.selfChekIn, .superHost],
+              amenities: [.wifi, .alarmSystem,.balcony,.laundry],
+              type: .villa
+             ),
+        .init(id: NSUUID().uuidString,
+              ownerUid: NSUUID().uuidString,
+              ownerName: "john smith",
+              ownerImageUrl: "male-profile-photo",
+              numberOfBedrooms: 4,
+              numberOfBathrooms: 3,
+              numberOfGuests: 4,
+              numberOfBeds: 4,
+              pricePerNight: 567,
+              latitude: 25.7850,
+              longtitude: -80.1936,
+              imageURLs: ["listing-2","listing-2","listing-3","listing-4"],
+              address: "127 main st",
+              city: "miami",
+              state: "florida",
+              title: "miami villa",
+              rating: 4.86,
+              features: [.selfChekIn, .superHost],
+              amenities: [.wifi, .alarmSystem,.balcony,.laundry],
+              type: .villa
+             )
+    
+    
+    ]
+}
